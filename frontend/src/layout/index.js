@@ -29,7 +29,6 @@ import api from "../services/api";
 import toastError from "../errors/toastError";
 
 import logodash from "../assets/logo-dash.png";
-import { system } from "../../package.json";
 
 const drawerWidth = 240;
 
@@ -243,10 +242,6 @@ const LoggedInLayout = ({ children }) => {
             noWrap
             className={classes.title}
           >
-            {system.name}
-            <span className={classes.systemCss}>
-              {"(v"}{system.version}{")"}
-            </span>
           </Typography>
           {user.id && <NotificationsPopOver />}
 
