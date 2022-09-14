@@ -216,6 +216,7 @@ const verifyQueue = async (
             );
 
             const sentMessage = await wbot.sendMessage(`${contact.number}@c.us`, body);
+            console.log(sentMessage);
 
             await verifyMessage(sentMessage, ticket, contact);
         }

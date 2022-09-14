@@ -29,8 +29,8 @@ const App = () => {
         },
       },
       palette: {
-        primary: { main: "#6B62FE" },
-        secondary: { main: "#F50057" },
+        primary: { main: "#0033FF" },
+        secondary: { main: "#0033FF" },
       },
       backgroundImage: `url(${lightBackground})`,
     },
@@ -43,7 +43,7 @@ const App = () => {
         MuiCssBaseline: {
           '@global': {
             body: {
-              backgroundColor: "#080d14",
+              backgroundColor: "#121214",
             }
           }
         }
@@ -59,14 +59,14 @@ const App = () => {
         },
       },
       palette: {
-        primary: { main: "#52d869" },
-        secondary: { main: "#ff9100" },
+        primary: { main: "#0033FF" },
+        secondary: { main: "#0033FF" },
         background: {
-          default: "#080d14",
-          paper: "#181d22",
+          default: "#121214",
+          paper: "#202024",
         },
         text: {
-          primary: "#52d869",
+          primary: "#0033FF",
           secondary: "#ffffff",
         },
       },
